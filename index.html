@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+{%- for s in site.sunseeds -%}
+<div class="sunseed sunseed-{{ s.slug }}">
+    <div class="sunseed-bg" style="background-image:url('images/photos/{{ s.slug }}_photo.jpg')"></div>
+    <div class="sunseed-icon">
+        <div class="sunseed-icon-image" style="background-image:url('images/icons/{{ s.slug }}_icon.svg')"></div>
+        <div class="sunseed-icon-title">{{ s.name }}</div>
+    </div>
+</div>
+{%- endfor -%}
