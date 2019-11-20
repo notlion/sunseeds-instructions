@@ -18,9 +18,6 @@ sunseeds:
   - name: Passion
     slug: passion
 
-plugins:
-  - jekyll-feed
-
 exclude:
   - .DS_Store
   - .sass-cache/

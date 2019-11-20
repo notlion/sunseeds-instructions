@@ -2,12 +2,29 @@
 layout: default
 ---
 
-{%- for s in site.sunseeds -%}
-<div class="sunseed sunseed-{{ s.slug }}">
-    <div class="sunseed-bg" style="background-image:url('images/photos/{{ s.slug }}_photo.jpg')"></div>
-    <div class="sunseed-icon">
-        <div class="sunseed-icon-image" style="background-image:url('images/icons/{{ s.slug }}_icon.svg')"></div>
-        <div class="sunseed-icon-title">{{ s.name }}</div>
-    </div>
+<div class="header">
+    <h1>Make Your Own<br><span class="header-sunseeds">Sun Seeds</span></h1>
+    <h2>Instructions</h2>
 </div>
-{%- endfor -%}
+
+<div class="practice-sunseeds">
+    <a class="sunseed-practice" href="sunseeds/practice.html">
+        <div class="sunseed-bg" style="background-image:url('images/photos/practice_photo.jpg')"></div>
+        <div class="sunseed-icon">
+            <div class="sunseed-icon-image" style="background-image:url('images/icons/practice_icon.svg')"></div>
+            <div class="sunseed-icon-title">Start Here! <span class="title-small">(Practice Sun Seed)</span></div>
+        </div>
+    </a>
+</div>
+
+<div class="sunseeds">
+    {%- for s in site.sunseeds -%}
+    <a class="sunseed sunseed-{{ s.slug }}" href="sunseeds/{{ s.slug }}.html">
+        <div class="sunseed-bg" style="background-image:url('images/photos/{{ s.slug }}_photo.jpg')"></div>
+        <div class="sunseed-icon">
+            <div class="sunseed-icon-image" style="background-image:url('images/icons/{{ s.slug }}_icon.svg')"></div>
+            <div class="sunseed-icon-title">{{ s.name }}</div>
+        </div>
+    </a>
+    {%- endfor -%}
+</div>
