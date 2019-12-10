@@ -1,0 +1,18 @@
+{% if include.width %}
+  {% assign width = include.width %}
+{% else %}
+  {% assign width = 16 %}
+{% endif %}
+{% if include.height %}
+  {% assign height = include.height %}
+{% else %}
+  {% assign height = width | times: 0.5625 | floor %}
+{% endif %}
+
+<figure class="media-video" style="padding-bottom:{{ height | times: 100.0 | divided_by: width | round | append: '%' }}">
+{% if include.vimeo %}
+<iframe src="https://player.vimeo.com/video/{{ include.vimeo }}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+{% else if include.youtube %}
+<iframe src="https://www.youtube-nocookie.com/embed/{{ include.youtube }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+{% endif %}
+</figure>
