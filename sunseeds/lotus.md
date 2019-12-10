@@ -5,4 +5,4 @@ sunseed_slug: lotus
 
 # Lotus Sun Seed
 
-Coming soon!
+{% include video.html youtube="nIXofqb4ZUc" %}

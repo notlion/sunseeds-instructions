@@ -5,4 +5,4 @@ sunseed_slug: daisy
 
 # Daisy Sun Seed
 
-Coming soon!
+{% include video.html youtube="NkWhRPmj7s4" %}
