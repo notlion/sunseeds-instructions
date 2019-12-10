@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Patrick Hand SC', sans-serif;
+    font-size: 20px;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -13,7 +14,8 @@ body {
 
 a {
     color: #000;
-    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-color: rgb(87, 221, 255);
 }
 
 h1, h2 {
@@ -42,6 +44,13 @@ h2 {
     flex: 1000px 0 1;
     margin: 50px 0 100px 0;
     text-align: center;
+}
+
+.page-content p {
+    display: inline-block;
+    max-width: 500px;
+    text-align: left;
+    margin: 20px 20px;
 }
 
 .practice-sunseeds {
