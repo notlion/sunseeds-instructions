@@ -1,10 +1,10 @@
 ---
 layout: sunseed
-sunseed_name: Daisy
-sunseed_slug: daisy
-sunseed_creator: Ryan Alexander
+sunseed_name: Succulent
+sunseed_slug: succulent
+sunseed_creator: Toby Schachman
 sunseed_piece_count: 20
-sunseed_youtube: NkWhRPmj7s4
+sunseed_youtube: 8EeM6o2EBpE
 ---
 
 # {{ page.sunseed_name }} Sun Seed

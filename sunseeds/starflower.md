@@ -1,10 +1,10 @@
 ---
 layout: sunseed
-sunseed_name: Daisy
-sunseed_slug: daisy
-sunseed_creator: Ryan Alexander
+sunseed_name: Star Flower
+sunseed_slug: starflower
+sunseed_creator: Monique DeSalvo
 sunseed_piece_count: 20
-sunseed_youtube: NkWhRPmj7s4
+sunseed_youtube: Eens5ty4iAc
 ---
 
 # {{ page.sunseed_name }} Sun Seed
