@@ -13,6 +13,6 @@
 {% if include.vimeo %}
 <iframe src="https://player.vimeo.com/video/{{ include.vimeo }}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 {% else if include.youtube %}
-<iframe src="https://www.youtube-nocookie.com/embed/{{ include.youtube }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/{{ include.youtube }}?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 {% endif %}
 </figure>
